@@ -10,11 +10,11 @@ def square(a):
     return this
 
 
-def sum1(yuz):
+def sum1(x):
     summ = 0
-    for i in range(1, num+1):
+    for i in range(1, x+1):
         summ = summ + i
     b = (square(summ))
     return b
-cıkar = sum1(100) - sum(100)
-print(cıkar)
+sub = sum1(100) - sum(100)
+print(sub)
