@@ -1,14 +1,14 @@
-liste = [2]
-t = 0
-sayac = 1
+list = [2]
+time = 0
+count = 1
 i = 3
-while(sayac < 10001):
-    t = 0
+while(count < 10001):
+    time = 0
     for j in range(2, int(i ** 0.5) + 1):
         if(i % j == 0):
-            t = t + 1
-    if(t == 0):
-        liste.append(i)
-        sayac = sayac + 1
+            time = time + 1
+    if(time == 0):
+        list.append(i)
+        count = count + 1
     i += 1
-print(liste[sayac - 1])
+print(list[count - 1])
